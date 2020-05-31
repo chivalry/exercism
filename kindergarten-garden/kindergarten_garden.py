@@ -1,26 +1,24 @@
 class Garden:
-    codes = {
+    CODES = {
         'G': 'Grass',
         'C': 'Clover',
         'R': 'Radishes',
         'V': 'Violets'
     }
 
-    def __init__(self, diagram, students=None):
+    DEFAULT = ['Alice', 'Bob', 'Charlie', 'David',
+               'Eve', 'Fred', 'Ginny', 'Harriet',
+               'Ileana', 'Joseph', 'Kincaid', 'Larry']
+
+    def __init__(self, diagram, students=DEFAULT):
         self.diagram = diagram.split()
-        self.students = students if students else None
+        self.students = sorted(students)[:len(self.diagram[0]) // 2]
+        self.shelves = {student: [
+            self.CODES[self.diagram[0][2 * i]],
+            self.CODES[self.diagram[0][2 * i + 1]],
+            self.CODES[self.diagram[1][2 * i]],
+            self.CODES[self.diagram[1][2 * i + 1]]
+        ] for i, student in enumerate(self.students)}
 
     def plants(self, student):
-        if not self.students:
-            self.students = ['Alice', 'Bob', 'Charlie', 'David',
-                             'Eve', 'Fred', 'Ginny', 'Harriet',
-                             'Ileana', 'Joseph', 'Kincaid', 'Larry']
-        else:
-            self.students.sort()
-        i = self.students.index(student)
-        return [
-            self.codes[self.diagram[0][2 * i]],
-            self.codes[self.diagram[0][2 * i + 1]],
-            self.codes[self.diagram[1][2 * i]],
-            self.codes[self.diagram[1][2 * i + 1]]
-        ]
+        return self.shelves[student]
