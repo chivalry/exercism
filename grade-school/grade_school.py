@@ -1,11 +1,13 @@
+import bisect
+
+
 class School:
     def __init__(self):
         self.grades = {}
 
     def add_student(self, name, grade):
         self.grades.setdefault(grade, [])
-        self.grades[grade].append(name)
-        self.grades[grade].sort()
+        bisect.insort(self.grades[grade], name)
 
     def roster(self):
         buf = []
