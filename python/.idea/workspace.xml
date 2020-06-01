@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a0d0367-f4ad-44f9-9acf-e215dfad787c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZUVPMxDOXr8KC6DJCyA6Nu8ew3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for grade_school_test.GradeSchoolTest.test_student_names_with_grades_are_displayed_in_the_same_sorted_roster">
+    <configuration name="largest_series_product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/largest-series-product" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/largest-series-product/largest_series_product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for grade_school_test.GradeSchoolTest.test_student_names_with_grades_are_displayed_in_the_same_sorted_roster" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grade-school" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;grade_school_test.GradeSchoolTest.test_student_names_with_grades_are_displayed_in_the_same_sorted_roster&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for kindergarten_garden_test.KindergartenGardenTest.test_partial_garden_different_garden_with_single_student" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kindergarten-garden" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;kindergarten_garden_test.KindergartenGardenTest.test_partial_garden_different_garden_with_single_student&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in grade_school_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grade-school" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/grade-school/grade_school_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in kindergarten_garden_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kindergarten-garden" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/kindergarten-garden/kindergarten_garden_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for grade_school_test.GradeSchoolTest.test_student_names_with_grades_are_displayed_in_the_same_sorted_roster" />
+        <item itemvalue="Python tests.pytest in grade_school_test.py" />
+        <item itemvalue="Python tests.pytest in kindergarten_garden_test.py" />
+        <item itemvalue="Python tests.pytest for kindergarten_garden_test.KindergartenGardenTest.test_partial_garden_different_garden_with_single_student" />
+        <item itemvalue="Python.largest_series_product" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a0d0367-f4ad-44f9-9acf-e215dfad787c" name="Default Changelist" comment="" />
+      <created>1584893634896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584893634896</updated>
+      <workItem from="1586094582851" duration="17097000" />
+      <workItem from="1586212760495" duration="201000" />
+      <workItem from="1586212985182" duration="3304000" />
+      <workItem from="1586473798373" duration="24215000" />
+      <workItem from="1586799934541" duration="15927000" />
+      <workItem from="1587389550593" duration="602000" />
+      <workItem from="1587476161355" duration="2068000" />
+      <workItem from="1587569670786" duration="39940000" />
+      <workItem from="1589086519554" duration="15204000" />
+      <workItem from="1590708912765" duration="1531000" />
+      <workItem from="1590878573091" duration="15942000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finish palindrom products exercise.">
+      <created>1586529852480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586529852480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finish triangle exercise.">
+      <created>1586530858888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586530858888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish Collatz Conjecture&#10;exercise.">
+      <created>1586532488807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586532488807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finish isogram exercise.">
+      <created>1586618832675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586618832675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finish bob.">
+      <created>1586798703137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586798703137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add prime factors">
+      <created>1586798989051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586798989051</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finish prime factors">
+      <created>1586816995142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586816995142</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finish error handling">
+      <created>1586824417296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586824417297</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish isogram.py">
+      <created>1587923640201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587923640202</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish twelve_days">
+      <created>1588102003013</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588102003014</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finish meetup">
+      <created>1588107140799</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588107140799</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finish allergies">
+      <created>1588109760073</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588109760073</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finish sum_of_multiples">
+      <created>1588111861493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588111861493</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finish sum_of_multiples">
+      <created>1588123190575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588123190576</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finish matching_brackets.py">
+      <created>1588124019154</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588124019154</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finish complex_numbers.py">
+      <created>1588129292930</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588129292930</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finish word-count">
+      <created>1589495890016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589495890016</updated>
+    </task>
+    <task id="LOCAL-00018" summary="finish word count">
+      <created>1589497588587</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589497588587</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add new exercises">
+      <created>1589497911541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589497911541</updated>
+    </task>
+    <task id="LOCAL-00020" summary="complete scrabble_score">
+      <created>1590360207314</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590360207316</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add kindergarten garden">
+      <created>1590948638106</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590948638106</updated>
+    </task>
+    <task id="LOCAL-00022" summary="finish kindergarten garden">
+      <created>1590952995845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590952995845</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add largest series product">
+      <created>1590953071654</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590953071654</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update kindergarten garden">
+      <created>1590958879211</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590958879211</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add say">
+      <created>1590969704876</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590969704876</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add grade school">
+      <created>1591026179757</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591026179757</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add grade school">
+      <created>1591026187237</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591026187237</updated>
+    </task>
+    <task id="LOCAL-00028" summary="edit grade school">
+      <created>1591037875155</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591037875155</updated>
+    </task>
+    <task id="LOCAL-00029" summary="edit grade school">
+      <created>1591038347288</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591038347288</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish triangle exercise." />
+    <MESSAGE value="Finish Collatz Conjecture&#10;exercise." />
+    <MESSAGE value="Finish isogram exercise." />
+    <MESSAGE value="Finish bob." />
+    <MESSAGE value="Add prime factors" />
+    <MESSAGE value="Finish prime factors" />
+    <MESSAGE value="Finish error handling" />
+    <MESSAGE value="finish isogram.py" />
+    <MESSAGE value="finish twelve_days" />
+    <MESSAGE value="finish meetup" />
+    <MESSAGE value="finish allergies" />
+    <MESSAGE value="finish sum_of_multiples" />
+    <MESSAGE value="finish matching_brackets.py" />
+    <MESSAGE value="finish complex_numbers.py" />
+    <MESSAGE value="finish word-count" />
+    <MESSAGE value="finish word count" />
+    <MESSAGE value="add new exercises" />
+    <MESSAGE value="complete scrabble_score" />
+    <MESSAGE value="add kindergarten garden" />
+    <MESSAGE value="finish kindergarten garden" />
+    <MESSAGE value="add largest series product" />
+    <MESSAGE value="update kindergarten garden" />
+    <MESSAGE value="add say" />
+    <MESSAGE value="add grade school" />
+    <MESSAGE value="edit grade school" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit grade school" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="2360" height="1400" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591030962008">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="100" y="100" width="2360" height="1400" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1600@0.0.2560.1600" timestamp="1591030962008" />
+    <state x="802" y="398" key="CommitChangelistDialog2" timestamp="1591038347172">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="802" y="398" key="CommitChangelistDialog2/0.0.2560.1600@0.0.2560.1600" timestamp="1591038347172" />
+    <state x="1130" y="700" key="Github.ShareDialog" timestamp="1586477001396">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="1130" y="700" key="Github.ShareDialog/0.0.2560.1600@0.0.2560.1600" timestamp="1586477001396" />
+    <state x="998" y="510" key="Github.UntrackedFilesDialog" timestamp="1586477015294">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="998" y="510" key="Github.UntrackedFilesDialog/0.0.2560.1600@0.0.2560.1600" timestamp="1586477015294" />
+    <state width="2128" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041102829">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102829" />
+    <state width="2128" height="284" key="GridCell.Tab.0.center" timestamp="1591041102828">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102828" />
+    <state width="2128" height="284" key="GridCell.Tab.0.left" timestamp="1591041102828">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102828" />
+    <state width="2128" height="284" key="GridCell.Tab.0.right" timestamp="1591041102828">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102828" />
+    <state width="2128" height="284" key="GridCell.Tab.1.bottom" timestamp="1591041102832">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.1.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102832" />
+    <state width="2128" height="284" key="GridCell.Tab.1.center" timestamp="1591041102831">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.1.center/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102831" />
+    <state width="2128" height="284" key="GridCell.Tab.1.left" timestamp="1591041102830">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.1.left/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102830" />
+    <state width="2128" height="284" key="GridCell.Tab.1.right" timestamp="1591041102832">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="2128" height="284" key="GridCell.Tab.1.right/0.0.2560.1600@0.0.2560.1600" timestamp="1591041102832" />
+    <state x="880" y="540" key="Vcs.Push.Dialog.v2" timestamp="1591038349310">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="880" y="540" key="Vcs.Push.Dialog.v2/0.0.2560.1600@0.0.2560.1600" timestamp="1591038349310" />
+    <state width="1280" height="800" key="XDebugger.FullValuePopup" timestamp="1588119109621">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state width="1280" height="800" key="XDebugger.FullValuePopup/0.0.2560.1600@0.0.2560.1600" timestamp="1588119109621" />
+    <state x="918" y="632" key="com.intellij.ide.util.TipDialog" timestamp="1586218095416">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="918" y="632" key="com.intellij.ide.util.TipDialog/0.0.2560.1600@0.0.2560.1600" timestamp="1586218095416" />
+    <state x="799" y="543" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589411616500">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="799" y="543" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1600@0.0.2560.1600" timestamp="1589411616500" />
+    <state x="945" y="371" width="670" height="676" key="search.everywhere.popup" timestamp="1590770933692">
+      <screen x="0" y="0" width="2560" height="1600" />
+    </state>
+    <state x="945" y="371" width="670" height="676" key="search.everywhere.popup/0.0.2560.1600@0.0.2560.1600" timestamp="1590770933692" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/phone-number/phone_number.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/phone-number/phone_number.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hamming/hamming_test.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/palindrome-products/palindrome_products.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/palindrome-products/palindrome_products_test.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/triangle/triangle_test.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bob/bob_test.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prime-factors/prime_factors.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prime-factors/prime_factors.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prime-factors/prime_factors.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/error-handling/error_handling_test.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/twelve-days/twelve_days_test.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/meetup/meetup.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sum-of-multiples/sum_of_multiples_test.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sum-of-multiples/sum_of_multiples.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple-cipher/simple_cipher_test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple-cipher/simple_cipher_test.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythagorean-triplet/pythagorean_triplet.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/matching-brackets/matching_brackets_test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/matching-brackets/matching_brackets_test.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/matching-brackets/matching_brackets_test.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/matching-brackets/matching_brackets_test.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/complex-numbers/complex_numbers_test.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word-count/word_count.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/word-count/word_count_test.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/largest-series-product/largest_series_product.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kindergarten-garden/kindergarten_garden_test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="size" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$pytest_in_prime_factors_test_py.coverage" NAME="pytest in prime_factors_test.py Coverage Results" MODIFIED="1586816918569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prime-factors" />
+    <SUITE FILE_PATH="coverage/python$twelve_days.coverage" NAME="twelve_days Coverage Results" MODIFIED="1588100287470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twelve-days" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_sum_of_multiples_test_SumOfMultiplesTest_test_one_factor_has_multiples_within_limit.coverage" NAME="pytest for sum_of_multiples_test.SumOfMultiplesTest.test_one_factor_has_multiples_within_limit Coverage Results" MODIFIED="1588110853814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum-of-multiples" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_triangle_test_ScaleneTriangleTest_test_no_sides_are_equal.coverage" NAME="pytest for triangle_test.ScaleneTriangleTest.test_no_sides_are_equal Coverage Results" MODIFIED="1586530490947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/triangle" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_matching_brackets_test_MatchingBracketsTest_test_paired_and_incomplete_brackets.coverage" NAME="pytest for matching_brackets_test.MatchingBracketsTest.test_paired_and_incomplete_brackets Coverage Results" MODIFIED="1588123727853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matching-brackets" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest_test_valid_when_11_digits_and_starting_with_1_even_with_punctuation.coverage" NAME="pytest for phone_number_test.PhoneNumberTest.test_valid_when_11_digits_and_starting_with_1_even_with_punctuation Coverage Results" MODIFIED="1586098482835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_palindrome_products_test_PalindromeProductsTest_test_finds_the_smallest_palindrome_from_single_digit_factors.coverage" NAME="pytest for palindrome_products_test.PalindromeProductsTest.test_finds_the_smallest_palindrome_from_single_digit_factors Coverage Results" MODIFIED="1586527173502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_meetup_test_py.coverage" NAME="pytest in meetup_test.py Coverage Results" MODIFIED="1588107029544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meetup" />
+    <SUITE FILE_PATH="coverage/python$largest_series_product.coverage" NAME="largest_series_product Coverage Results" MODIFIED="1590953868201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/largest-series-product" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_complex_numbers_test_ComplexNumbersTest_test_euler_s_identity_formula.coverage" NAME="pytest for complex_numbers_test.ComplexNumbersTest.test_euler_s_identity_formula Coverage Results" MODIFIED="1588126099822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/complex-numbers" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_twelve_days_test_TwelveDaysTest_test_recites_first_three_verses_of_the_song.coverage" NAME="pytest for twelve_days_test.TwelveDaysTest.test_recites_first_three_verses_of_the_song Coverage Results" MODIFIED="1587942502747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twelve-days" />
+    <SUITE FILE_PATH="coverage/python$simple_cipher.coverage" NAME="simple_cipher Coverage Results" MODIFIED="1588114312179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1586273623138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matrix" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_allergies_test_AllergiesTest_test_more_than_eggs_but_not_peanuts.coverage" NAME="pytest for allergies_test.AllergiesTest.test_more_than_eggs_but_not_peanuts Coverage Results" MODIFIED="1588108821032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/allergies" />
+    <SUITE FILE_PATH="coverage/python$isbn_verifier.coverage" NAME="isbn_verifier Coverage Results" MODIFIED="1586094612842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isbn-verifier" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_bob_test_BobTest_test_stating_something.coverage" NAME="pytest for bob_test.BobTest.test_stating_something Coverage Results" MODIFIED="1586792325376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bob" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest.coverage" NAME="pytest for phone_number_test.PhoneNumberTest Coverage Results" MODIFIED="1586098580057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_allergies_test_AllergiesTest_test_allergic_to_something_but_not_tomatoes.coverage" NAME="pytest for allergies_test.AllergiesTest.test_allergic_to_something_but_not_tomatoes Coverage Results" MODIFIED="1588109108793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/allergies" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_sum_of_multiples_test_SumOfMultiplesTest_test_factors_not_relatively_prime.coverage" NAME="pytest for sum_of_multiples_test.SumOfMultiplesTest.test_factors_not_relatively_prime Coverage Results" MODIFIED="1588110783535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum-of-multiples" />
+    <SUITE FILE_PATH="coverage/python$scratch_5.coverage" NAME="scratch_5 Coverage Results" MODIFIED="1588089974740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_word_count_test_WordCountTest_test_alternating_word_separators_not_detected_as_a_word.coverage" NAME="pytest for word_count_test.WordCountTest.test_alternating_word_separators_not_detected_as_a_word Coverage Results" MODIFIED="1589411706649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word-count" />
+    <SUITE FILE_PATH="coverage/python$sieve.coverage" NAME="sieve Coverage Results" MODIFIED="1589497323858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sieve" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_phone_number_test_py.coverage" NAME="pytest in phone_number_test.py Coverage Results" MODIFIED="1586097999863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_matching_brackets_test_MatchingBracketsTest_test_math_expression.coverage" NAME="pytest for matching_brackets_test.MatchingBracketsTest.test_math_expression Coverage Results" MODIFIED="1588123490457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matching-brackets" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_meetup_test_MeetupTest_test_monteenth_of_may_2013.coverage" NAME="pytest for meetup_test.MeetupTest.test_monteenth_of_may_2013 Coverage Results" MODIFIED="1588106723538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meetup" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_prime_factors_test_PrimeFactorsTest_test_no_factors.coverage" NAME="pytest for prime_factors_test.PrimeFactorsTest.test_no_factors Coverage Results" MODIFIED="1586816275415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prime-factors" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_palindrome_products_test_py.coverage" NAME="pytest in palindrome_products_test.py Coverage Results" MODIFIED="1586529567693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_SubstitutionCipherTest_test_can_double_shift_encode.coverage" NAME="pytest for simple_cipher_test.SubstitutionCipherTest.test_can_double_shift_encode Coverage Results" MODIFIED="1588119139656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_matching_brackets_test_py.coverage" NAME="pytest in matching_brackets_test.py Coverage Results" MODIFIED="1588123419484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matching-brackets" />
+    <SUITE FILE_PATH="coverage/python$isogram.coverage" NAME="isogram Coverage Results" MODIFIED="1586615437556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isogram" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_sum_of_multiples_test_py.coverage" NAME="pytest in sum_of_multiples_test.py Coverage Results" MODIFIED="1588111510342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum-of-multiples" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest_test_disallow_first_strand_longer.coverage" NAME="pytest for hamming_test.HammingTest.test_disallow_first_strand_longer Coverage Results" MODIFIED="1586274623013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_allergies_test_AllergiesTest_test_chocolate_allergic_to_everything.coverage" NAME="pytest for allergies_test.AllergiesTest.test_chocolate_allergic_to_everything Coverage Results" MODIFIED="1588108845677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/allergies" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_prime_factors_test_PrimeFactorsTest_test_prime_number.coverage" NAME="pytest for prime_factors_test.PrimeFactorsTest.test_prime_number Coverage Results" MODIFIED="1586816278634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prime-factors" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest_test_invalid_when_9_digits.coverage" NAME="pytest for phone_number_test.PhoneNumberTest.test_invalid_when_9_digits Coverage Results" MODIFIED="1586098785769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$saddle_points.coverage" NAME="saddle_points Coverage Results" MODIFIED="1586475244949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/saddle-points" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_complex_numbers_test_ComplexNumbersTest_test_multiply_purely_real_numbers.coverage" NAME="pytest for complex_numbers_test.ComplexNumbersTest.test_multiply_purely_real_numbers Coverage Results" MODIFIED="1588124629196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/complex-numbers" />
+    <SUITE FILE_PATH="coverage/python$word_count.coverage" NAME="word_count Coverage Results" MODIFIED="1589411414557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word-count" />
+    <SUITE FILE_PATH="coverage/python$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1586618238344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_bob_test_BobTest_test_prolonged_silence.coverage" NAME="pytest for bob_test.BobTest.test_prolonged_silence Coverage Results" MODIFIED="1586620266842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bob" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_matrix_test_py.coverage" NAME="pytest in matrix_test.py Coverage Results" MODIFIED="1586273625333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matrix" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_hamming_test_py.coverage" NAME="pytest in hamming_test.py Coverage Results" MODIFIED="1586274632054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_grade_school_test_GradeSchoolTest_test_student_names_with_grades_are_displayed_in_the_same_sorted_roster.coverage" NAME="pytest for grade_school_test.GradeSchoolTest.test_student_names_with_grades_are_displayed_in_the_same_sorted_roster Coverage Results" MODIFIED="1591030290692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade-school" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_palindrome_products_test_PalindromeProductsTest_test_finds_the_largest_palindrome_from_single_digit_factors.coverage" NAME="pytest for palindrome_products_test.PalindromeProductsTest.test_finds_the_largest_palindrome_from_single_digit_factors Coverage Results" MODIFIED="1586527315572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_word_count_test_WordCountTest_test_count_one_of_each_word.coverage" NAME="pytest for word_count_test.WordCountTest.test_count_one_of_each_word Coverage Results" MODIFIED="1589411243550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word-count" />
+    <SUITE FILE_PATH="coverage/python$allergies_test.coverage" NAME="allergies_test Coverage Results" MODIFIED="1588109276401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/allergies" />
+    <SUITE FILE_PATH="coverage/python$meetup.coverage" NAME="meetup Coverage Results" MODIFIED="1588104931744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meetup" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest_test_cleans_numbers_with_dots.coverage" NAME="pytest for phone_number_test.PhoneNumberTest.test_cleans_numbers_with_dots Coverage Results" MODIFIED="1586097964670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_pythagorean_triplet_test_py.coverage" NAME="pytest in pythagorean_triplet_test.py Coverage Results" MODIFIED="1588122891451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythagorean-triplet" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest_test_long_different_strands.coverage" NAME="pytest for hamming_test.HammingTest.test_long_different_strands Coverage Results" MODIFIED="1586274626115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_kindergarten_garden_test_KindergartenGardenTest_test_partial_garden_different_garden_with_single_student.coverage" NAME="pytest for kindergarten_garden_test.KindergartenGardenTest.test_partial_garden_different_garden_with_single_student Coverage Results" MODIFIED="1590958213291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kindergarten-garden" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_error_handling_test_ErrorHandlingTest_test_return_tuple.coverage" NAME="pytest for error_handling_test.ErrorHandlingTest.test_return_tuple Coverage Results" MODIFIED="1586822235600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error-handling" />
+    <SUITE FILE_PATH="coverage/python$phone_number.coverage" NAME="phone_number Coverage Results" MODIFIED="1586132428455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_error_handling_test_py.coverage" NAME="pytest in error_handling_test.py Coverage Results" MODIFIED="1586818547389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error-handling" />
+    <SUITE FILE_PATH="coverage/python$allergies.coverage" NAME="allergies Coverage Results" MODIFIED="1588109269304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/allergies" />
+    <SUITE FILE_PATH="coverage/python$palindrome_products.coverage" NAME="palindrome_products Coverage Results" MODIFIED="1586482613598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_RandomKeyCipherTest_test_key_is_made_only_of_lowercase_letters.coverage" NAME="pytest for simple_cipher_test.RandomKeyCipherTest.test_key_is_made_only_of_lowercase_letters Coverage Results" MODIFIED="1588118321850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_bob_test_py.coverage" NAME="pytest in bob_test.py Coverage Results" MODIFIED="1586792328669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bob" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest_test_single_letter_identical_strands.coverage" NAME="pytest for hamming_test.HammingTest.test_single_letter_identical_strands Coverage Results" MODIFIED="1586274470187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_palindrome_products_test_PalindromeProductsTest_test_empty_result_for_largest_if_no_palindrome_in_the_range.coverage" NAME="pytest for palindrome_products_test.PalindromeProductsTest.test_empty_result_for_largest_if_no_palindrome_in_the_range Coverage Results" MODIFIED="1586529596104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_triangle_test_ScaleneTriangleTest_test_may_not_violate_triangle_inequality.coverage" NAME="pytest for triangle_test.ScaleneTriangleTest.test_may_not_violate_triangle_inequality Coverage Results" MODIFIED="1586530500443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/triangle" />
+    <SUITE FILE_PATH="coverage/python$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1586138378890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$scratch_7.coverage" NAME="scratch_7 Coverage Results" MODIFIED="1589394467386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_kindergarten_garden_test_KindergartenGardenTest_test_full_garden_first_student_s_garden.coverage" NAME="pytest for kindergarten_garden_test.KindergartenGardenTest.test_full_garden_first_student_s_garden Coverage Results" MODIFIED="1590952247491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kindergarten-garden" />
+    <SUITE FILE_PATH="coverage/python$scrabble_score.coverage" NAME="scrabble_score Coverage Results" MODIFIED="1590099343178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrabble-score" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_SubstitutionCipherTest_test_can_encode.coverage" NAME="pytest for simple_cipher_test.SubstitutionCipherTest.test_can_encode Coverage Results" MODIFIED="1588118768637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$matching_brackets.coverage" NAME="matching_brackets Coverage Results" MODIFIED="1588123691365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matching-brackets" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_grade_school_test_py.coverage" NAME="pytest in grade_school_test.py Coverage Results" MODIFIED="1591030179897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade-school" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_largest_series_product_test_py.coverage" NAME="pytest in largest_series_product_test.py Coverage Results" MODIFIED="1590953595257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/largest-series-product" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_word_count_test_py.coverage" NAME="pytest in word_count_test.py Coverage Results" MODIFIED="1589418295484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word-count" />
+    <SUITE FILE_PATH="coverage/python$pythagorean_triplet.coverage" NAME="pythagorean_triplet Coverage Results" MODIFIED="1588122325730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythagorean-triplet" />
+    <SUITE FILE_PATH="coverage/python$prime_factors.coverage" NAME="prime_factors Coverage Results" MODIFIED="1586816197788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prime-factors" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_kindergarten_garden_test_py.coverage" NAME="pytest in kindergarten_garden_test.py Coverage Results" MODIFIED="1590958595752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kindergarten-garden" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest_test_valid_when_11_digits_and_starting_with_1.coverage" NAME="pytest for phone_number_test.PhoneNumberTest.test_valid_when_11_digits_and_starting_with_1 Coverage Results" MODIFIED="1586098298309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$bob.coverage" NAME="bob Coverage Results" MODIFIED="1586798366295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bob" />
+    <SUITE FILE_PATH="coverage/python$scratch_6.coverage" NAME="scratch_6 Coverage Results" MODIFIED="1588127102947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_SubstitutionCipherTest_test_can_wrap_on_encode.coverage" NAME="pytest for simple_cipher_test.SubstitutionCipherTest.test_can_wrap_on_encode Coverage Results" MODIFIED="1588119149447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_twelve_days_test_py.coverage" NAME="pytest in twelve_days_test.py Coverage Results" MODIFIED="1587942144833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twelve-days" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_twelve_days_test_TwelveDaysTest.coverage" NAME="pytest for twelve_days_test.TwelveDaysTest Coverage Results" MODIFIED="1587941960493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twelve-days" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_SubstitutionCipherTest_test_is_reversible.coverage" NAME="pytest for simple_cipher_test.SubstitutionCipherTest.test_is_reversible Coverage Results" MODIFIED="1588118380374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_palindrome_products_test_PalindromeProductsTest_test_empty_result_for_smallest_if_no_palindrome_in_the_range.coverage" NAME="pytest for palindrome_products_test.PalindromeProductsTest.test_empty_result_for_smallest_if_no_palindrome_in_the_range Coverage Results" MODIFIED="1586529453841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/palindrome-products" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest_test_empty_strands.coverage" NAME="pytest for hamming_test.HammingTest.test_empty_strands Coverage Results" MODIFIED="1586274494744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_SubstitutionCipherTest_test_can_decode.coverage" NAME="pytest for simple_cipher_test.SubstitutionCipherTest.test_can_decode Coverage Results" MODIFIED="1588118361999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$kindergarten_garden.coverage" NAME="kindergarten_garden Coverage Results" MODIFIED="1590950784364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kindergarten-garden" />
+    <SUITE FILE_PATH="coverage/python$acronym.coverage" NAME="acronym Coverage Results" MODIFIED="1590360553671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acronym" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest_test_disallow_second_strand_longer.coverage" NAME="pytest for hamming_test.HammingTest.test_disallow_second_strand_longer Coverage Results" MODIFIED="1586274131318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_simple_cipher_test_RandomKeyCipherTest_test_can_encode.coverage" NAME="pytest for simple_cipher_test.RandomKeyCipherTest.test_can_encode Coverage Results" MODIFIED="1588118316853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_sum_of_multiples_test_SumOfMultiplesTest_test_all_numbers_are_multiples_of_1.coverage" NAME="pytest for sum_of_multiples_test.SumOfMultiplesTest.test_all_numbers_are_multiples_of_1 Coverage Results" MODIFIED="1588110650366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum-of-multiples" />
+    <SUITE FILE_PATH="coverage/python$scratch_8.coverage" NAME="scratch_8 Coverage Results" MODIFIED="1589472725612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_in_simple_cipher_test_py.coverage" NAME="pytest in simple_cipher_test.py Coverage Results" MODIFIED="1588118731093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple-cipher" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_phone_number_test_PhoneNumberTest_test_invalid_when_more_than_11_digits.coverage" NAME="pytest for phone_number_test.PhoneNumberTest.test_invalid_when_more_than_11_digits Coverage Results" MODIFIED="1586098506311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone-number" />
+    <SUITE FILE_PATH="coverage/python$sum_of_multiples.coverage" NAME="sum_of_multiples Coverage Results" MODIFIED="1588111253885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum-of-multiples" />
+    <SUITE FILE_PATH="coverage/python$collatz_conjecture.coverage" NAME="collatz_conjecture Coverage Results" MODIFIED="1586532288597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collatz-conjecture" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_hamming_test_HammingTest.coverage" NAME="pytest for hamming_test.HammingTest Coverage Results" MODIFIED="1586274582057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hamming" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_matching_brackets_test_MatchingBracketsTest_test_too_many_closing_brackets.coverage" NAME="pytest for matching_brackets_test.MatchingBracketsTest.test_too_many_closing_brackets Coverage Results" MODIFIED="1588123836817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matching-brackets" />
+    <SUITE FILE_PATH="coverage/python$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1586137617317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_word_count_test_WordCountTest_test_non_alphanumeric.coverage" NAME="pytest for word_count_test.WordCountTest.test_non_alphanumeric Coverage Results" MODIFIED="1589411822530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word-count" />
+    <SUITE FILE_PATH="coverage/python$pytest_for_scrabble_score_test_ScrabbleScoreTest_test_uppercase_letter.coverage" NAME="pytest for scrabble_score_test.ScrabbleScoreTest.test_uppercase_letter Coverage Results" MODIFIED="1590092580074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrabble-score" />
+    <SUITE FILE_PATH="coverage/python$scratch_3.coverage" NAME="scratch_3 Coverage Results" MODIFIED="1588177131174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+  </component>
+</project>
