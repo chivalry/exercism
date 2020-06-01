@@ -9,9 +9,8 @@ int is_armstrong_number(int num) {
     int power = strlen(str);
     int sum = 0;
     for (int i = 0; i < power; i++) {
-        int digit = (int)i - '0';
+        int digit = (int)str[i] - '0';
         sum += pow(digit, power);
-        printf("%d\n", sum);
     }
-    return power;
+    return sum == num;
 }
