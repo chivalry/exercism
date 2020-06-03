@@ -9,5 +9,6 @@ export const age = (planet, seconds) => {
         'uranus': 84.016846,
         'neptune': 164.79132
     };
-    return parseFloat((seconds / 31557600 / dict[planet]).toFixed(2))
+    const earthSeconds = 31557600;
+    return Number((seconds / earthSeconds / dict[planet]).toFixed(2))
 };
