@@ -40,14 +40,14 @@
 # https://www.gnu.org/software/bash/manual/bash.html#Shell-Expansions
 
 @test "handle arg with spaces" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  [[ $BATS_RUN_SKIPPED == "true" ]]
   run bash two_fer.sh "John Smith" "Mary Ann"
   (( status == 0 ))
   [[ $output == "One for John Smith, one for me." ]]
 }
 
 @test "handle arg with glob char" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  [[ $BATS_RUN_SKIPPED == "true" ]]
   run bash two_fer.sh "*"
   (( status == 0 ))
   [[ $output == "One for *, one for me." ]]
