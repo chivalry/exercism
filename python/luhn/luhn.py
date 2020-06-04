@@ -6,7 +6,7 @@ class Luhn:
             self.card = [int(c) for c in card_num if c.isdigit()]
 
     def valid(self):
-        if not self.card or len(self.card) <= 1:
+        if len(self.card) <= 1:
             return False
         doubled = []
         for i, digit in enumerate(reversed(self.card)):
