@@ -9,63 +9,50 @@ def inline_tag(group, tag):
     return f'{group(1)}{enclose(group(2), tag)}{group(3)}'
 
 
+def matches_strong(text):
+    return re.match('(.*)__(.*)__(.*)', text)
+
+
+def matches_em(text):
+    return re.match('(.*)_(.*)_(.*)', text)
+
+
+def check_for_formatting(text):
+    if match := matches_strong(text):
+        text = inline_tag(match.group, 'strong')
+    if match := matches_em(text):
+        text = inline_tag(match.group, 'em')
+    return text
+
+
+def check_headings(line):
+    for i in range(6, 0, -1):
+        if re.match(f'{"#"*i} (.*)', line):
+            return enclose(line[i+1:], f'h{i}')
+    return line
+
+
 def parse(markdown):
-    lines = markdown.split('\n')
     res = ''
-    in_list = False
-    in_list_append = False
-    for line in lines:
-        if re.match('###### (.*)', line) is not None:
-            line = enclose(line[7:], 'h6')
-        elif re.match('## (.*)', line) is not None:
-            line = enclose(line[3:], 'h2')
-        elif re.match('# (.*)', line) is not None:
-            line = enclose(line[2:], 'h1')
-        m = re.match(r'\* (.*)', line)
-        if m:
+    in_list = in_list_append = False
+    for line in markdown.split('\n'):
+        line = check_headings(line)
+        if match := re.match(r'\* (.*)', line):
             if not in_list:
                 in_list = True
-                curr = m.group(1)
-                m1 = re.match('(.*)__(.*)__(.*)', curr)
-                if m1:
-                    curr = inline_tag(m1.group, 'strong')
-                m1 = re.match('(.*)_(.*)_(.*)', curr)
-                if m1:
-                    curr = inline_tag(m1.group, 'em')
+                curr = check_for_formatting(match.group(1))
                 line = f'<ul>{enclose(curr, "li")}'
             else:
-                is_bold = False
-                is_italic = False
-                curr = m.group(1)
-                m1 = re.match('(.*)__(.*)__(.*)', curr)
-                if m1:
-                    is_bold = True
-                m1 = re.match('(.*)_(.*)_(.*)', curr)
-                if m1:
-                    is_italic = True
-                if is_bold:
-                    curr = inline_tag(m1.group, 'strong')
-                if is_italic:
-                    curr = inline_tag(m1.group, 'em')
+                curr = check_for_formatting(match.group(1))
                 line = enclose(curr, 'li')
         else:
-            if in_list:
-                in_list_append = True
-                in_list = False
+            in_list_append = in_list if in_list else in_list_append
+            in_list = False
 
-        m = re.match('<h|<ul|<p|<li', line)
-        if not m:
-            line = enclose(line, 'p')
-        m = re.match('(.*)__(.*)__(.*)', line)
-        if m:
-            line = m.group(1) + '<strong>' + m.group(2) + '</strong>' + m.group(3)
-        m = re.match('(.*)_(.*)_(.*)', line)
-        if m:
-            line = m.group(1) + '<em>' + m.group(2) + '</em>' + m.group(3)
-        if in_list_append:
-            line = '</ul>' + line
-            in_list_append = False
+        line = check_for_formatting(line)
+        line = line if re.match('<h|<ul|<li', line) else enclose(line, 'p')
+        line = '</ul>' + line if in_list_append else line
+        in_list_append = False
         res += line
-    if in_list:
-        res += '</ul>'
+    res += '</ul>' if in_list else ''
     return res
