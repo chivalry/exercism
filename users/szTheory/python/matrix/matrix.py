@@ -9,18 +9,16 @@ class Matrix:
         return self.matrix[index-1]
 
     def column(self, index):
-        vals = []
-        for row in self.matrix:
-            vals.append(row[index-1])
-
-        return vals
+        return [row[index-1] for row in self.matrix]
 
     def __matrix_from_string(self, string):
         lines = string.split("\n")
-        matrix = []
-        for line in lines:
-            chars = line.split(" ")
-            numbers = [int(ch) for ch in chars]
-            matrix.append(numbers)
+        matrix = [self.__row_from_line(line) for line in lines]
 
         return matrix
+
+    def __row_from_line(self, line):
+        chars = line.split(" ")
+        row = [int(ch) for ch in chars]
+
+        return row

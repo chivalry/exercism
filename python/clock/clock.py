@@ -5,8 +5,7 @@ class Clock:
     def __init__(self, hour, minute):
         time = hour * self.MAX_MINS + minute
         self._time = time % (self.MAX_MINS * self.MAX_HRS)
-        self.hours = self._time // self.MAX_MINS
-        self.minutes = self._time % self.MAX_MINS
+        self.hours, self.minutes = divmod(self._time, self.MAX_MINS)
 
     def __repr__(self):
         return f'{self.hours:02d}:{self.minutes:02d}'
