@@ -9,18 +9,10 @@ def inline_tag(group, tag):
     return f'{group(1)}{enclose(group(2), tag)}{group(3)}'
 
 
-def matches_strong(text):
-    return re.match('(.*)__(.*)__(.*)', text)
-
-
-def matches_em(text):
-    return re.match('(.*)_(.*)_(.*)', text)
-
-
 def check_for_formatting(text):
-    if match := matches_strong(text):
+    if match := re.match('(.*)__(.*)__(.*)', text):
         text = inline_tag(match.group, 'strong')
-    if match := matches_em(text):
+    if match := re.match('(.*)_(.*)_(.*)', text):
         text = inline_tag(match.group, 'em')
     return text
 

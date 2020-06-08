@@ -1,24 +1,5 @@
-export const toRna = (inputDNA) => {
-  let outputRNA = [];
+const rnaMap = { G: 'C', C: 'G', T: 'A', A: 'U' };
 
-  inputDNA.split('').forEach((letter) => {
-    switch (letter) {
-      case 'G':
-        outputRNA.push('C');
-        break;
-      case 'C':
-        outputRNA.push('G');
-        break;
-      case 'T':
-        outputRNA.push('A');
-        break;
-      case 'A':
-        outputRNA.push('U');
-        break;
-      default:
-        outputRNA.push('');
-        break;
-    }
-  });
-  return outputRNA.join('');
+export const toRna = (inputDNA) => {
+  return inputDNA.split('').map(x => rnaMap[x]).join('');
 };
