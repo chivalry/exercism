@@ -1,19 +1,12 @@
-if (( $1 % 3 == 0 ))
-then
-    pling="Pling"
-fi
-if (( $1 % 5 == 0 ))
-then
-    plang="Plang"
-fi
-if (( $1 % 7 == 0 ))
-then
-    plong="Plong"
-fi
-res="${pling}${plang}${plong}"
+#!/usr/bin/env bash
+
+res=""
+(( $1 % 3 == 0 )) && res="Pling"
+(( $1 % 5 == 0 )) && res+="Plang"
+(( $1 % 7 == 0 )) && res+="Plong"
 if [[ -z "$res" ]]
 then
-    echo $1
+    echo "$1"
 else
-    echo $res
+    echo "$res"
 fi
