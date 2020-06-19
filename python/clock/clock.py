@@ -5,10 +5,10 @@ class Clock:
     def __init__(self, hour, minute):
         time = hour * self.MAX_MINS + minute
         self._time = time % (self.MAX_MINS * self.MAX_HRS)
-        self.hours, self.minutes = divmod(self._time, self.MAX_MINS)
 
     def __repr__(self):
-        return f'{self.hours:02d}:{self.minutes:02d}'
+        hours, minutes = divmod(self._time, self.MAX_MINS)
+        return f'{hours:0>2}:{minutes:0>2}'
 
     def __eq__(self, other):
         return self._time == other._time
