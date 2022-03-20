@@ -1,44 +1,19 @@
-# Matrix
+# Bob
 
-Given a string representing a matrix of numbers, return the rows and columns of
-that matrix.
+Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
-So given a string with embedded newlines like:
+Bob answers 'Sure.' if you ask him a question, such as "How are you?".
 
-```text
-9 8 7
-5 3 2
-6 6 7
-```
+He answers 'Whoa, chill out!' if you YELL AT HIM (in all capitals).
 
-representing this matrix:
+He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
 
-```text
-    1  2  3
-  |---------
-1 | 9  8  7
-2 | 5  3  2
-3 | 6  6  7
-```
+He says 'Fine. Be that way!' if you address him without actually saying
+anything.
 
-your code should be able to spit out:
+He answers 'Whatever.' to anything else.
 
-- A list of the rows, reading each row left-to-right while moving
-  top-to-bottom across the rows,
-- A list of the columns, reading each column top-to-bottom while moving
-  from left-to-right.
-
-The rows for our example matrix:
-
-- 9, 8, 7
-- 5, 3, 2
-- 6, 6, 7
-
-And its columns:
-
-- 9, 5, 6
-- 8, 3, 6
-- 7, 2, 7
+Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 
 ## Setup
 
@@ -76,7 +51,7 @@ Once you get a test passing, you can enable the next one by changing `xtest` to
 Once you have a solution ready, you can submit it using:
 
 ```bash
-exercism submit matrix.js
+exercism submit bob.js
 ```
 
 ## Submitting Incomplete Solutions
@@ -86,5 +61,5 @@ completed the exercise.
 
 ## Exercise Source Credits
 
-Warmup to the `saddle-points` warmup. [http://jumpstartlab.com](http://jumpstartlab.com)
+Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
 

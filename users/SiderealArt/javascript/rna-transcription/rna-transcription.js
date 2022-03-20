@@ -5,9 +5,7 @@ var dict = {
     'A': 'U',
 };
 export const toRna = (dna_strand) => {
-    var a = '';
-    for (var i = 0; i < dna_strand.length; i++) {
-        a += dict[dna_strand[i]];
-    }
-    return a;
+    let strand = dna_strand.split('');
+    strand = strand.map(a => dict[a]);
+    return strand.join('');
 };
