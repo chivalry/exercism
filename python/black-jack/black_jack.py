@@ -15,8 +15,15 @@ def value_of_card(card):
     2.  'A' (ace card) = 1
     3.  '2' - '10' = numerical value.
     """
-
-    pass
+    cards = {
+        'A': 1,
+        'J': 10,
+        'Q': 10,
+        'K': 10
+    }
+    if card in cards:
+        return cards[card]
+    return int(card)
 
 
 def higher_card(card_one, card_two):
@@ -29,8 +36,13 @@ def higher_card(card_one, card_two):
     2.  'A' (ace card) = 1
     3.  '2' - '10' = numerical value.
     """
-
-    pass
+    val_one = value_of_card(card_one)
+    val_two = value_of_card(card_two)
+    if val_one == val_two:
+        return card_one, card_two
+    if val_one > val_two:
+        return card_one
+    return card_two
 
 
 def value_of_ace(card_one, card_two):
@@ -43,8 +55,10 @@ def value_of_ace(card_one, card_two):
     2.  'A' (ace card) = 11 (if already in hand)
     3.  '2' - '10' = numerical value.
     """
-
-    pass
+    if 'A' in (card_one, card_two) \
+            or value_of_card(card_one) + value_of_card(card_two) > 10:
+        return 1
+    return 11
 
 
 def is_blackjack(card_one, card_two):
@@ -57,8 +71,8 @@ def is_blackjack(card_one, card_two):
     2.  'A' (ace card) = 11 (if already in hand)
     3.  '2' - '10' = numerical value.
     """
-
-    pass
+    return 'A' in (card_one, card_two) \
+        and (value_of_card(card_one) == 10 or value_of_card(card_two) == 10)
 
 
 def can_split_pairs(card_one, card_two):
@@ -67,8 +81,7 @@ def can_split_pairs(card_one, card_two):
     :param card_one, card_two: str - cards dealt.
     :return: bool - can the hand be split into two pairs? (i.e. cards are of the same value).
     """
-
-    pass
+    return value_of_card(card_one) == value_of_card(card_two)
 
 
 def can_double_down(card_one, card_two):
@@ -77,5 +90,7 @@ def can_double_down(card_one, card_two):
     :param card_one, card_two: str - first and second cards in hand.
     :return: bool - can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
+    return 9 <= value_of_card(card_one) + value_of_card(card_two) <= 11
 
-    pass
+
+print(value_of_ace('7', '3'))
