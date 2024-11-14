@@ -1,29 +1,64 @@
-def say(num):
-    if num < 0 or num >= 1e12:
-        raise ValueError('only pass positive integers')
-    if num == 0:
-        return 'zero'
-    return say_special(num)
+ONES = [
+    'zero',
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+    'ten',
+    'eleven',
+    'twelve',
+    'thirteen',
+    'fourteen',
+    'fifteen',
+    'sixteen',
+    'seventeen',
+    'eighteen',
+    'ninteen',
+]
 
-def say_special(digit):
-    return {
-        1: 'one',
-        2: 'two',
-        3: 'three',
-        4: 'four',
-        5: 'five',
-        6: 'six',
-        7: 'seven',
-        8: 'eight',
-        9: 'nine',
-        10: 'ten',
-        11: 'eleven',
-        12: 'twelve',
-        13: 'thirteen',
-        14: 'fourteen',
-        15: 'fifteen',
-        16: 'sixteen',
-        17: 'seventeen',
-        18: 'eighteen',
-        19: 'nineteen'
-    }[digit]
+TENS = [
+    '', '',
+        'twenty',
+    'thirty',
+    'forty',
+    'fifty',
+    'sixty',
+    'seventy',
+        'eighty',
+    'ninety']
+
+BASES = (
+    (1000000000, 'billion'),
+    (1000000, 'million'),
+    (1000, 'thousand'),
+    (100, 'hundred'),
+)
+
+
+def say(num):
+    parts = []
+    if not 0 <= num < 1000000000000:
+        raise ValueError('input out of range')
+    if num == 0:
+        return ONES[num]
+    for base, name in BASES:
+        if num >= base:
+            parts.append(say(int(num // base)))
+            parts.append(name)
+            num = int(num % base)
+    out = ''
+    if num >= 20:
+        out += TENS[num // 10]
+        num = int(num % 10)
+        if num:
+            out += '-'
+    if num and num < 20:
+        out += ONES[num]
+    if out:
+        parts.append(out)
+    return ' '.join(parts)
