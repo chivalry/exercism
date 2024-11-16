@@ -15,4 +15,7 @@ LINES = {
 
 
 def recite(start_verse, end_verse):
-    pass
+    return list(LINES.values())[start_verse - 1]
+
+
+print(recite(12, 12))
