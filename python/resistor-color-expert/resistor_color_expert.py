@@ -13,6 +13,8 @@ TOLERANCES = {
     'gold': 5,    'silver': 10
 }
 
+PREFIX_DICT = {1_000_000_000: "giga", 1_000_000: "mega", 1_000: "kilo", 0: ""}
+
 
 def resistor_label(colors):
     if len(colors) == 1:
@@ -23,11 +25,13 @@ def resistor_label(colors):
     if len(colors) == 5:
         base += 100 * COLORS.index(colors[0])
     ohms = base * multiplier
-    prefix = ''
-    for si_pref in ['kilo', 'mega', 'giga']:
-        if ohms < 1000:
-            break
-        ohms /= 1000
-        prefix = si_pref
+    ohms, prefix = si_conversion(ohms)
     ohms = int(ohms) if ohms == int(ohms) else ohms
     return f'{ohms} {prefix}ohms ±{tolerance}%'
+
+
+def si_conversion(magnitude):
+    (new_mag, prefix) = next((new_mag, prefix)
+                             for new_mag, prefix in PREFIX_DICT.items() if new_mag <= magnitude)
+    magnitude = magnitude / new_mag if new_mag > 0 else magnitude
+    return magnitude, prefix
