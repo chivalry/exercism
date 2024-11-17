@@ -61,6 +61,3 @@ def adjective_to_verb(sentence, index):
     words = sentence.replace('.', ' ').split()
     word = words[index]
     return word + 'en'
-
-
-print(adjective_to_verb('I need to make that bright.', -1))
