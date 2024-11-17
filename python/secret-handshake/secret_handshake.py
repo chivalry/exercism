@@ -8,6 +8,7 @@ ACTIONS = [
 
 def commands(binary_str):
     code = int(binary_str, 2)
+    ''' original code
     shake = []
     for i in range(4):
         if bit_is_set(code, i):
@@ -15,6 +16,9 @@ def commands(binary_str):
     if bit_is_set(code, 4):
         shake.reverse()
     return shake
+    '''
+    shake = [ACTIONS[i] for i in range(4) if bit_is_set(code, i)]
+    return shake[::-1] if bit_is_set(code, 4) else shake
 
 
 def bit_is_set(num, pos):
