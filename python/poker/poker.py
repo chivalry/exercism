@@ -1,3 +1,5 @@
+from collections import Counter
+
 STRAIGHT_FLUSH = 10
 FOUR_OF_A_KIND = 9
 FULL_HOUSE = 8
@@ -15,85 +17,6 @@ HAND_RANKS = [
 ]
 
 CARD_RANKS = ['A', 'K', 'Q', 'J', '10', '9', '8', '7', '6', '5', '4', '3', '2']
-
-
-def best_hands(hands: list[str]) -> list[str]:
-    '''Return a the hand or list of hands that have the highest rank
-    :param hands: list[str] - The hands to compare
-    :return list[str] - The one or more hands that have the highest rank
-    '''
-    if len(hands) == 1:
-        return [hands[0]]
-    highest_rank = NO_HIGH_HAND
-    high_hands = []
-    structured_hands = build_hand_map(hands)
-    for structured_hand in structured_hands:
-        hand = structured_hands[structured_hand]
-        if is_straight_flush(hand):
-            highest_rank = STRAIGHT_FLUSH
-            high_hands += [hand]
-        elif highest_rank < FOUR_OF_A_KIND and is_four_of_a_kind(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-        elif highest_rank < FULL_HOUSE and is_full_house(hand):
-            highest_rank = FULL_HOUSE
-            high_hands += [hand]
-        elif highest_rank < FLUSH and is_flush(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-        elif highest_rank < STRAIGHT and is_straight(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-        elif highest_rank < THREE_OF_A_KIND and is_three_of_a_kind(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-        elif highest_rank < TWO_PAIR and is_two_pair(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-        elif highest_rank < ONE_PAIR and is_one_pair(hand):
-            highest_rank = FOUR_OF_A_KIND
-            high_hands += [hand]
-    return [' '.join(high_hand) for high_hand in high_hands]
-
-
-def build_hand_map(hands: list[str]) -> dict[str, list[str]]:
-    """Build a structure where the text hand is the key and the sorted hand is the value
-    :param hands: list[str] - The hands to build the structure from
-    :return dict[str, list[str]] - The structure to return
-    """
-    return {hand: sort(hand) for hand in hands}
-
-
-def sort(hand: str) -> list[str]:
-    """Return a sorted version of the hand as a list of cardds
-    :param hand: str - The hand to sort as a string of cards
-    :return list[str] - The sorted hand, high card to low, as a list of card strings
-    """
-    return sorted(hand.split(' '), key=card_rank)
-
-
-def card_rank(card: str) -> int:
-    """Return the rank of the given card
-    :param card: str - A string representing the card
-    :return int - The rank of the card, lower being better
-    """
-    return CARD_RANKS.index('10' if card[0] == '1' else card[0])
-
-
-def values(hand: list[str]) -> set[int]:
-    """Return the unique values of the hand
-    :param hand: list[str] - The hand to evaluate
-    :return set[int] - The unique values
-    """
-    return {card_rank(card) for card in hand}
-
-
-def value_count(hand: list[str]) -> int:
-    """Return the number of card values in the hand
-    :param card: str = A string representing the card
-    :return int - The number of unique card values found in the hand
-    """
-    return len(values(hand))
 
 
 def is_straight_flush(hand: list[str]) -> bool:
@@ -115,7 +38,7 @@ def is_four_of_a_kind(hand: list[str]) -> bool:
             two unique values, either the first one differs from the second or the last differs
             from the second-to-last
     """
-    if value_count(hand) != 2:
+    if values_count(hand) != 2:
         return False
     return card_rank(hand[0]) != card_rank(hand[1]) \
         or card_rank(hand[-1]) != card_rank(hand[-2])
@@ -129,7 +52,7 @@ def is_full_house(hand: list[str]) -> bool:
             two unique values, either the second card differs from the third or the third card
             differs from the fourth
     """
-    if value_count(hand) != 2:
+    if values_count(hand) != 2:
         return False
     return card_rank(hand[1]) != card_rank(hand[2]) \
         or card_rank(hand[2]) != card_rank(hand[3])
@@ -164,8 +87,9 @@ def is_three_of_a_kind(hand: list[str]) -> bool:
     :param hand: list[str] - The hand to evaluate
     :return bool - Whether the hand is a straight
     """
-    if value_count(hand) != 3:
+    if values_count(hand) != 3:
         return False
+    return highest_value_count(hand) == 3
 
 
 def is_two_pair(hand: list[str]) -> bool:
@@ -174,8 +98,9 @@ def is_two_pair(hand: list[str]) -> bool:
     :param hand: list[str] - The hand to evaluate
     :return bool - Whether the hand is a straight
     """
-    if value_count(hand) != 3:
+    if values_count(hand) != 3:
         return False
+    return highest_value_count(hand) == 2
 
 
 def is_one_pair(hand: list[str]) -> bool:
@@ -184,7 +109,93 @@ def is_one_pair(hand: list[str]) -> bool:
     :param hand: list[str] - The hand to evaluate
     :return bool - Whether the hand is a straight
     """
-    pass
+    if values_count(hand) != 4:
+        return False
+    print(Counter([card[0] for card in hand]).most_common(1))
+    return highest_value_count(hand) == 2
 
 
-print(best_hands(["4D 5D 6D 7D 8D", "9D 5D 6D 7D 8D"]))
+FUNCTIONS = {
+    STRAIGHT_FLUSH: is_straight_flush,
+    FOUR_OF_A_KIND: is_four_of_a_kind,
+    FULL_HOUSE: is_full_house,
+    FLUSH: is_flush,
+    STRAIGHT: is_straight,
+    THREE_OF_A_KIND: is_three_of_a_kind,
+    TWO_PAIR: is_two_pair,
+    ONE_PAIR: is_one_pair
+}
+
+
+def best_hands(hands: list[str]) -> list[str]:
+    '''Return a the hand or list of hands that have the highest rank
+    :param hands: list[str] - The hands to compare
+    :return list[str] - The one or more hands that have the highest rank
+    '''
+    if len(hands) == 1:
+        return [hands[0]]
+    highest_rank = NO_HIGH_HAND
+    high_hands = []
+    structured_hands = build_hand_map(hands)
+    for hand, structured_hand in structured_hands.items():
+        for rank, function in FUNCTIONS.items():
+            if highest_rank < rank and function(structured_hand):
+                print(function.__name__)
+                if highest_rank < rank and high_hands:
+                    high_hands.clear()
+                high_hands.append(hand)
+                highest_rank = rank
+                continue
+    if len(high_hands) == 1:
+        return high_hands
+    return high_hands
+
+
+def build_hand_map(hands: list[str]) -> dict[str, list[str]]:
+    """Build a structure where the text hand is the key and the sorted hand is the value
+    :param hands: list[str] - The hands to build the structure from
+    :return dict[str, list[str]] - The structure to return
+    """
+    return {hand: sort(hand) for hand in hands}
+
+
+def sort(hand: str) -> list[str]:
+    """Return a sorted version of the hand as a list of cardds
+    :param hand: str - The hand to sort as a string of cards
+    :return list[str] - The sorted hand, high card to low, as a list of card strings
+    """
+    return sorted(hand.split(' '), key=card_rank)
+
+
+def card_rank(card: str) -> int:
+    """Return the rank of the given card
+    :param card: str - A string representing the card
+    :return int - The rank of the card, lower being better
+    """
+    return CARD_RANKS.index('10' if card[0] == '1' else card[0])
+
+
+def values(hand: list[str]) -> set[int]:
+    """Return the unique values of the hand
+    :param hand: list[str] - The hand to evaluate
+    :return set[int] - The unique values
+    """
+    return {card_rank(card) for card in hand}
+
+
+def values_count(hand: list[str]) -> int:
+    """Return the number of card values in the hand
+    :param card: str = A string representing the card
+    :return int - The number of unique card values found in the hand
+    """
+    return len(values(hand))
+
+
+def highest_value_count(hand):
+    return Counter([card[0] for card in hand]).most_common(1)[0][1]
+
+
+print(best_hands([
+    "3H 3D 2S 5S 6H",
+    "3H 4H 5H 7H 9D",
+]))
