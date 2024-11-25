@@ -1,4 +1,5 @@
 from typing import List
+from time import time
 
 
 def is_prime(num: int) -> bool:
@@ -40,5 +41,7 @@ def factors(value: int) -> List:
     return sorted(facts)
 
 
-if __name__ == '__main__':
-    print(factors(2))
+t0 = time()
+print(factors(93819012551))
+t1 = time()
+print(t1 - t0)
