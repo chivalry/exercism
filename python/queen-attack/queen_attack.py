@@ -1,5 +1,8 @@
+from __future__ import annotations
+
+
 class Queen:
-    def __init__(self, row, col):
+    def __init__(self, row: int, col: int):
         if row < 0:
             raise ValueError('row not positive')
         if col < 0:
@@ -11,10 +14,11 @@ class Queen:
         self.row = row
         self.col = col
 
-    def can_attack(self, other):
+    def can_attack(self, other: Queen) -> bool:
         if self.row == other.row and self.col == other.col:
             raise ValueError(
-                "Invalid queen position: both queens in the same square")
-        return self.row == other.row \
-            or self.col == other.col \
-            or (abs(other.col - self.col) == abs(other.row - self.row))
+                "Invalid queen position: both queens in the same square"
+            )
+        return (self.row == other.row
+                or self.col == other.col
+                or abs(other.col - self.col) == abs(other.row - self.row))
