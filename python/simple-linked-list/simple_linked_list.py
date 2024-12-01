@@ -24,18 +24,14 @@ class LinkedList:
     """Represents a linked list of nodes where each individual node points to the next node
     in the linked list."""
 
-    def __init__(self, values=[]):
+    def __init__(self, values: list[any] = []):
         """Initialize the linked list with the values found in the passed native list."""
         self._head = None
-        if not values:
-            return
         for value in values:
             self.push(value)
 
     def __len__(self) -> int:
         """Return the number of nodes in the linked list."""
-        if self._head == None:
-            return 0
         len = 0
         node = self._head
         while node:
@@ -43,19 +39,19 @@ class LinkedList:
             node = node.next()
         return len
 
-    def __iter__(self):
+    def __iter__(self) -> LinkedList:
         """Initialize a variable to point to the head and return the self, which has a
         `__next__` method."""
         self._pointer = self._head
         return self
 
-    def __next__(self):
+    def __next__(self) -> any:
         """"""
         if self._pointer == None:
             del self._pointer
             raise StopIteration
-        value = self._pointer._value
-        self._pointer = self._pointer._next
+        value = self._pointer.value()
+        self._pointer = self._pointer.next()
         return value
 
     def head(self) -> Node:
@@ -81,10 +77,6 @@ class LinkedList:
         return popped
 
     def reversed(self) -> LinkedList:
-        if len(self) == 0:
-            return []
-        if len(self) == 1:
-            return [self._head.value()]
         result = []
         for value in self:
             result = [value] + result
@@ -98,8 +90,5 @@ class EmptyListException(Exception):
     """
 
     def __init__(self, message):
+        """Initialize the exception using the provided message."""
         self.message = message
-
-
-sut = LinkedList([1, 2, 3])
-print(sut.reversed())
