@@ -17,7 +17,8 @@ def convert(grid: list[str]) -> str:
     numerals with each "line" of numerals representing comma-separated powers of 10^3.
     :param grid: list[str] - The textual represenation of the numerals
     :return str - The converted string of numerals
-
+    :rasies - ValueError if each line is not a multiple of 3 columns or each 10^3 groupsing is
+              not a multiple of 4 rows.
     :note - The textual representation format:
          _  _
       | _| _|
